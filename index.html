@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" >
+        <h1 class="font logo">Site Do Leo</h1>
+        
+        <ul id="navegar">
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Notas</a></li>
+        </ul>
+
+    </div>
+    <div id="paragrafo1">
+        <p>Esse site é dedicado ao&nbsp;<span>leo</span>&nbsp;e quero que ele saiba que ainda há chances dele coseguir seu sonho</p>
+        <p>Eu sei que parece dificil, mas não pare!</p>
+    </div>
+
+    <div>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg" title="Cachorro olhando para frente" alt="Cachorro olhando para frente">
+        <h3>Objetivos</h3>
+        <p>Coloque alguns aobjetivos como meta e cumpra-os</p>
+    </div>
+
+    <div>
+        <h6>coloque imagens e links dentro desse site!</h6>
+        <h5>Coloque butões também!</h5>
+    </div>
+
+    <div>
+        <table id="tabela">
+            <caption>Afazeres</caption>
+            <thead class="font">
+                    <tr>
+                        <th scope="col" rowspan="2">Tecnologias</th>
+                        <th scope="col" colspan="2">Urgentes</th>
+                        <th scope="col">Revisar</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Aprender</th>
+                        <th scope="col">Revisar</th>
+                        <th scope="col">Pendente</th>
+                    </tr>
+                <tbody class="font">
+                    <tr>
+                        <th scope="row">HTML</th>
+                        <td>Tabelas</td>
+                        <td>Tabelas</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">CSS</th>
+                        <td>Tudo</td>
+                        <td>tudo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">JavaScript</th>
+                        <td>Tudo</td>
+                        <td>tudo</td>
+                    </tr>
+                </tbody>
+                <tfoot class="font">
+                    <th scope="row" colspan="3"> Aprender hj</th>
+                </tfoot>
+            </thead>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <caption>Compras</caption>
+            <thead>
+                <tr>
+                    <th class="font" scope="col" rowspan="2">&nbsp</th>
+                    <th class="font" scope="col" colspan="2">Importante</th>
+                </tr>
+                <tr>
+                    <th class="font" scope="col">Itens</th>
+                    <th class="font" scope="col">valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="font" scope="row">Compra 1</th>
+                    <td class="font">banana</td>
+                    <td class="font">12R$</td>
+                </tr>
+                <tr>
+                    <th class="font" scope="row">Compra 2</th>
+                    <td class="font" >Maças</td>
+                    <td class="font" >20R$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="font" scope="row" colspan="2">Total</th>
+                    <td>32R$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <form action="" id="formulario">
+            <p>Atividades Para <strong>Adicionar Na Tabela</strong></p>
+            <label for="fTecnologia">Tecnologia</label>
+            <input type="text" name="fTecnologia" id="fTecnologia">
+            <label for="fApender">Aprender</label>
+            <input type="text" name="fApender" id="fApender">
+            <label for="fRevisar">Revisar</label>
+            <input type="text" name="fRevisar" id="fRevisar">
+            <label for="fUrgente">Urgente</label>
+            <input type="text" name="fUrgente" id="fUrgente">
+            <input type="submit" id="submit">
+        </form>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
